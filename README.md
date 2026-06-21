@@ -1,13 +1,21 @@
+<p align="center">
+  <img src="./assets/zead-control.svg" alt="ZEAD // 4NG3L CONTROL" width="100%">
+</p>
+
+<p align="center">
+  <img src="./assets/badge-local-first.svg" alt="LOCAL FIRST">
+  <img src="./assets/badge-no-silent-exec.svg" alt="NO SILENT EXEC">
+  <img src="./assets/badge-evidence.svg" alt="EVIDENCE OVER VIBES">
+  <img src="./assets/badge-staged.svg" alt="STAGED NOT LIVE">
+</p>
+
 # ZEAD // 4NG3L CONTROL
 
 ```text
-       ______  ______   ___    ____ 
-      /__  / |/ / __ | /   |  / __ \
-        / /|   / /_/ |/ /| | / / / /
-       / /_/   / __  / ___ |/ /_/ / 
-      /____/_/|_/_/ |_/_/  |_\____/  
-
-  LOCAL-FIRST SYSTEMS / GOVERNED AGENTS / OPERATOR TOOLS
+SYSTEM:  LOCAL-FIRST CONTROL PLANE
+MODE:    GOVERNED DELEGATION
+SIGNAL:  EVIDENCE BEFORE ACTION
+STATUS:  BUILDING
 ```
 
 I build practical control systems for agents, projects, and messy real life.
@@ -19,6 +27,16 @@ staged-not-live results. Strict core. Humane front door.
 
 ```text
 message -> draft -> confirm -> governed job -> evidence -> approval -> staged
+```
+
+```mermaid
+flowchart LR
+    A[message] --> B[draft card]
+    B --> C[confirm]
+    C --> D[governed job]
+    D --> E[evidence]
+    E --> F[approval]
+    F --> G[staged, not live]
 ```
 
 ## // operator
@@ -35,6 +53,18 @@ I like systems that are useful before they are impressive:
 
 No silent execution. No mystery boxes. No pretending the magic is safer than it
 is.
+
+<details>
+<summary>// console notes</summary>
+
+```text
+profile theme : charcoal / cyan telemetry / amber warning lamps
+build style   : boring core, sharp interface
+threat model  : assume drift, log evidence, keep recovery close
+preferred UX  : cards, command palettes, dashboards, operator handles
+```
+
+</details>
 
 ## // current build
 
@@ -78,4 +108,3 @@ agent governance  | local-first tools | project memory
 control planes    | evidence systems  | operator UX
 garage-lab code   | practical AI      | machines with handles
 ```
-
