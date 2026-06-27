@@ -74,6 +74,9 @@ It is a delegation board, not a chatbot: a way to turn messy intent into
 reviewable work, run bounded workers in isolated spaces, verify what changed,
 and keep the operator in the loop.
 
+This repo was used for ANGEL's first supervised real-repo cutover proof, with
+no auto-merge or live apply.
+
 ```text
 strict core       : risk gates / audit log / rollback paths
 worker lane       : isolated git worktrees / evidence packets
